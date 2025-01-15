@@ -1,8 +1,8 @@
 import 'package:get_it/get_it.dart';
-import 'package:test/features/user_details/user_details_injection.dart';
+import 'package:user_details_module/user_details_module.dart';
 
 final sl = GetIt.instance;
 
 Future<void> init() async {
-  await initUserDetailsModule(sl);
+  await initUserDetailsModule();
 }

@@ -42,3 +42,8 @@ android {
 flutter {
     source = "../.."
 }
+
+dependencies {
+    implementation project(':user_details_module')
+    implementation project(':shared')
+}
