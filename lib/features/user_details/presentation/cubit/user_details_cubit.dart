@@ -35,8 +35,12 @@ class UserDetailsCubit extends Cubit<UserDetailsState> {
     response.fold(
       (failure) =>
           emit(UserDetailsError(message: 'Could not submit phone number')),
-      (_) {
-        emit(PhoneNumberSubmitted());
+      (result) {
+        if (result) {
+          emit(PhoneNumberSubmitted());
+        } else {
+          emit(UserDetailsError(message: 'Error on submit phone number'));
+        }
         loadUserDetails();
       },
     );
