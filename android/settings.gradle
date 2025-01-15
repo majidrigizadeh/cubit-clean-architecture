@@ -23,3 +23,7 @@ plugins {
 }
 
 include ":app"
+include ':user_details_module'
+project(':user_details_module').projectDir = new File('../user_details_module/android')
+include ':shared'
+project(':shared').projectDir = new File('../shared/android')
