@@ -91,7 +91,6 @@ This creates a standalone Dart/Flutter package named `user_details_module` with 
        sdk: flutter
      flutter_bloc: ^8.1.0
      get_it: ^7.6.0
-     validators: ^3.0.0
    ```
 
 ---
@@ -159,7 +158,6 @@ dependencies:
     sdk: flutter
   flutter_bloc: ^8.1.0
   get_it: ^7.6.0
-  validators: ^3.0.0
 ```
 
 In the main app, the module is included as a local dependency.
