@@ -41,8 +41,8 @@ Follow these steps to set up and run the project:
 ### **Step 1: Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/user-details-module.git
-cd user-details-module
+git clone https://github.com/majidrigizadeh/cubit-clean-architecture
+cd cubit-clean-architecture
 ```
 
 ### **Step 2: Install Dependencies**
