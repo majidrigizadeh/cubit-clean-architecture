@@ -5,15 +5,6 @@ This project is a Flutter application that demonstrates a modular implementation
 
 ---
 
-## **Features**
-- Displays user details: Name and Email.
-- Accepts and validates an Iranian phone number.
-- Submits the phone number to a remote data source (mocked in this example).
-- Modular structure for scalability and maintainability.
-- Fully adheres to **Clean Architecture**, **SOLID Principles**, and **Separation of Concerns**.
-
----
-
 ## **Project Structure**
 
 The project follows the modular and layered architecture principles:
@@ -41,8 +32,8 @@ Follow these steps to set up and run the project:
 ### **Step 1: Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/user-details-module.git
-cd user-details-module
+git clone https://github.com/majidrigizadeh/cubit-clean-architecture
+cd cubit-clean-architecture
 ```
 
 ### **Step 2: Install Dependencies**
