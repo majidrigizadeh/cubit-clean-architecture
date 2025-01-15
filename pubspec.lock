@@ -214,7 +214,7 @@ packages:
   shared:
     dependency: "direct main"
     description:
-      path: shared
+      path: "features/shared"
       relative: true
     source: path
     version: "0.0.1"
@@ -282,7 +282,7 @@ packages:
   user_details_module:
     dependency: "direct main"
     description:
-      path: user_details_module
+      path: "features/user_details_module"
       relative: true
     source: path
     version: "1.0.0+1"

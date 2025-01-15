@@ -33,11 +33,11 @@ dependencies:
 
   # Shared files between modules
   shared:
-    path: shared
+    path: features/shared
 
   # User details module
   user_details_module:
-    path: user_details_module
+    path: features/user_details_module
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
