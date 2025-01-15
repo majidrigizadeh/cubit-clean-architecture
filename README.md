@@ -2,7 +2,7 @@
 # Cubit Clean Architecture, 
 
 
-### This is Isolated module version, for Folder base feature you can see [feature/folder_base branch](https://github.com/majidrigizadeh/cubit-clean-architecture/tree/feature/folder_base)
+### This is Modularization structure version, for Folder structure version you can see [feature/folder_base branch](https://github.com/majidrigizadeh/cubit-clean-architecture/tree/feature/folder_base)
 
 This project is a Flutter application that demonstrates a modular implementation of the **UserDetails** feature using **Clean Architecture** principles, **BLoC (Cubit)** for state management, and **dependency injection** with `get_it`.
 
